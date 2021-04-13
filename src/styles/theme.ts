@@ -2,7 +2,8 @@ import { extendTheme } from '@chakra-ui/react';
 
 export const lightTheme = extendTheme({
   colors: {
-    "text-color": "#F5F8FA",
+    "text-color-primary": "#F5F8FA",
+    "text-color-secondary": "#47585B",
     "info": "#DADADA",
     "infoAlpha": "rgba(153, 153, 153, 0.5)",
     "highlight": "#FFBA08",
@@ -16,7 +17,7 @@ export const lightTheme = extendTheme({
     global: {
       body: {
         bg: 'white',
-        color: 'text-color',
+        color: 'text-color-primary',
       }
     }
   }
