@@ -9,7 +9,6 @@ export function Category({ image, description }: CategoryProps) {
   return (
     <Flex
       flexDir="column"
-      flex="1"
       justify="center"
       align="center"
     >

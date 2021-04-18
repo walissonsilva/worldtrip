@@ -3,6 +3,8 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { lightTheme, darkTheme } from '../styles/theme';
 import { ThemeProvider, useTheme } from '../hooks/useTheme';
 
+import 'swiper/swiper-bundle.css';
+
 function AppProvider({ Component, pageProps }) {
   const { isDark, toggleTheme } = useTheme();
 

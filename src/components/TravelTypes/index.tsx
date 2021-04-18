@@ -6,6 +6,7 @@ export function TravelTypes() {
     <Flex
       maxWidth={1160}
       m="80px auto 0"
+      px={["5", "5", "5", "5", 0]}
       align="center"
       justify="space-between"
     >
