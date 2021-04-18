@@ -1,3 +1,5 @@
+![worldtrip logo](public/images/logo.svg)
+
 # Worldtrip
 
 Uma aplicação web responsiva de uma empresa (fictícia) de viagens, desenvolvida utilizando o Next.js e o ChakraUI para a estilização dos componentes.
